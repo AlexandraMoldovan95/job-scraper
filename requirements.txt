@@ -10,7 +10,8 @@ pydantic>=2.7
 python-docx
 python-dotenv
 pyyaml
-streamlit
+# st.iframe, st.logo with SVG, horizontal containers and width="stretch" need a recent version
+streamlit>=1.66
 # Windows has no system timezone database; zoneinfo needs this for Europe/Bucharest
 tzdata
 
