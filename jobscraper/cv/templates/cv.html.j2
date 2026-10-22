@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="{{ cv.language }}">
+<head>
+<meta charset="utf-8">
+<title>{{ cv.full_name }} – CV</title>
+<style>
+  @page { size: A4; margin: 16mm 16mm 14mm; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: Calibri, Carlito, "Segoe UI", Arial, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.38;
+    color: #1d1d1f;
+    background: #fff;
+  }
+  .page { max-width: 178mm; margin: 0 auto; }
+  @media screen { body { padding: 14mm 12mm; } }
+  header { border-bottom: 1.5pt solid #1d1d1f; padding-bottom: 6pt; margin-bottom: 10pt; }
+  h1 { font-size: 21pt; line-height: 1.1; margin: 0; letter-spacing: 0.2pt; }
+  .headline { font-size: 12pt; font-weight: 600; margin: 2pt 0 4pt; color: #2f3b52; }
+  .contact { font-size: 9.5pt; color: #444; }
+  .contact span + span::before { content: " · "; color: #999; }
+  h2 {
+    font-size: 10.5pt; text-transform: uppercase; letter-spacing: 1pt;
+    color: #2f3b52; border-bottom: 0.6pt solid #c9ced8;
+    margin: 12pt 0 5pt; padding-bottom: 2pt;
+  }
+  p { margin: 0 0 4pt; }
+  .entry { margin-bottom: 7pt; break-inside: avoid; }
+  .entry-head { display: flex; justify-content: space-between; gap: 8pt; }
+  .entry-title { font-weight: 700; }
+  .entry-period { white-space: nowrap; color: #444; }
+  .entry-sub { color: #444; font-style: italic; }
+  ul { margin: 2pt 0 0; padding-left: 14pt; }
+  li { margin-bottom: 1.5pt; }
+  .tech { font-size: 9.5pt; color: #444; margin-top: 2pt; }
+  .skills { margin: 0; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <h1>{{ cv.full_name }}</h1>
+    {% if cv.headline %}<div class="headline">{{ cv.headline }}</div>{% endif %}
+    {% if cv.contact %}<div class="contact">{% for item in cv.contact %}<span>{{ item }}</span>{% endfor %}</div>{% endif %}
+  </header>
+
+  {% if cv.summary %}
+  <section>
+    <h2>{{ cv.labels.summary }}</h2>
+    <p>{{ cv.summary }}</p>
+  </section>
+  {% endif %}
+
+  {% if cv.skills %}
+  <section>
+    <h2>{{ cv.labels.skills }}</h2>
+    <p class="skills">{{ cv.skills | join(", ") }}</p>
+  </section>
+  {% endif %}
+
+  {% macro entries(items) %}
+    {% for e in items %}
+    <div class="entry">
+      <div class="entry-head">
+        <span class="entry-title">{{ e.title }}{% if e.organization %} — {{ e.organization }}{% endif %}</span>
+        {% if e.period %}<span class="entry-period">{{ e.period }}</span>{% endif %}
+      </div>
+      {% if e.location or e.link %}<div class="entry-sub">{{ [e.location, e.link] | select | join(" · ") }}</div>{% endif %}
+      {% if e.text %}<p>{{ e.text }}</p>{% endif %}
+      {% if e.bullets %}<ul>{% for b in e.bullets %}<li>{{ b }}</li>{% endfor %}</ul>{% endif %}
+      {% if e.technologies %}<div class="tech">{{ cv.labels.technologies }}: {{ e.technologies | join(", ") }}</div>{% endif %}
+    </div>
+    {% endfor %}
+  {% endmacro %}
+
+  {% for key in ["experience", "projects", "education", "courses"] %}
+    {% if cv[key] %}
+    <section>
+      <h2>{{ cv.labels[key] }}</h2>
+      {{ entries(cv[key]) }}
+    </section>
+    {% endif %}
+  {% endfor %}
+
+  {% if cv.languages %}
+  <section>
+    <h2>{{ cv.labels.languages }}</h2>
+    <p>{{ cv.languages | join(" · ") }}</p>
+  </section>
+  {% endif %}
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+# Configurarea aplicației. Căile relative sunt față de folderul acestui fișier.
+
+sources:
+  # Prin SearchApi.io; ambele cer SEARCHAPI_API_KEY și consumă credite (1 per pagină / per detalii job)
+  google_jobs:
+    # SearchApi.io: Google Jobs nu suportă România (gl=ro → 400). Doar pentru țările din
+    # https://www.searchapi.io/docs/parameters/google-jobs/gl
+    enabled: false
+  linkedin:
+    enabled: true
+  # Scrapere directe (respectă robots.txt, max 1 request / 2,5 s per site)
+  bestjobs:
+    enabled: true
+  hipo:
+    enabled: true
+  # eJobs și OLX blochează accesul automat (403 Cloudflare)
+  ejobs:
+    enabled: false
+  olx:
+    enabled: false
+
+# Exemple - de înlocuit cu ce cauți tu
+search:
+  queries:
+    - python developer
+    - junior developer
+  cities:
+    - București
+  work_modes: [remote, hybrid, on-site]
+  keywords_required: []
+  keywords_excluded: []
+  min_salary: null # RON net pe lună; null = fără filtru
+
+scraping:
+  user_agent: "JobScraperPersonal/0.1 (personal use, low volume)"
+  min_delay_seconds: 2.5 # pauza minimă între request-uri pe același domeniu (minimum 2)
+  timeout_seconds: 20
+  cache_ttl_hours: 12
+  max_pages_per_query: 3
+  auto_details: true # BestJobs/Hipo: descrierea completă se încarcă imediat după căutare (LinkedIn rămâne la cerere)
+  max_auto_details: 40 # maximum de anunțuri încărcate așa per sursă și căutare (~2,5 s fiecare)
+
+searchapi:
+  location: Romania
+  gl: ro # țara (Google Jobs)
+  hl: ro # limba (Google Jobs)
+  linkedin_time_period: null # last_hour | last_day | last_week | last_month; null = oricând
+
+llm:
+  model: claude-opus-5-5
+  effort: medium # low | medium | high | xhigh | max
+  max_tokens: 16000
+
+paths:
+  db: data/jobs.db
+  profile: data/profile.yaml
+  cache_dir: data/cache
+  output_dir: data/output

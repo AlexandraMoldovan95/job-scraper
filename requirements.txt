@@ -1,0 +1,17 @@
+anthropic>=1.15
+beautifulsoup4
+httpx
+jinja2
+lxml
+playwright
+# robots.txt parser that understands * and $ wildcards (urllib.robotparser does not)
+protego
+pydantic>=2.7
+python-docx
+python-dotenv
+pyyaml
+streamlit
+# Windows has no system timezone database; zoneinfo needs this for Europe/Bucharest
+tzdata
+
+pytest

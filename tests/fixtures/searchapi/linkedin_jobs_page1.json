@@ -1,0 +1,45 @@
+{
+  "_comment": "Hand-written from https://www.searchapi.io/docs/linkedin-jobs-api. Replace with a saved real response once a key is set.",
+  "search_metadata": { "id": "search_test_li_1", "status": "Success" },
+  "search_parameters": {
+    "engine": "linkedin_jobs",
+    "q": "python developer",
+    "location": "Romania",
+    "location_used": "Romania",
+    "location_id_used": "106670623"
+  },
+  "search_information": { "total_results": 3, "is_total_results_approximate": true },
+  "jobs": [
+    {
+      "position": 1,
+      "job_id": "1111111111",
+      "title": "Python Developer",
+      "company_name": "Exemplu Software SRL",
+      "company_link": "https://ro.linkedin.com/company/exemplu",
+      "location": "Bucureşti, România (Hibrid)",
+      "date": "2026-10-17",
+      "posted_at": "2 days ago",
+      "link": "https://ro.linkedin.com/jobs/view/python-developer-at-exemplu-1111111111",
+      "thumbnail": "https://media.licdn.com/dms/image/logo.png"
+    },
+    {
+      "position": 2,
+      "job_id": "3333333333",
+      "title": "Data Engineer",
+      "company_name": "Date Mari SA",
+      "location": "Cluj-Napoca, Cluj, România",
+      "benefits": "Be an early applicant",
+      "posted_at": "5 hours ago",
+      "link": "https://ro.linkedin.com/jobs/view/data-engineer-at-date-mari-3333333333"
+    },
+    {
+      "position": 3,
+      "title": "Fără id",
+      "company_name": "Nimeni SRL"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=python%20developer&start=60"
+  }
+}

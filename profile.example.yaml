@@ -1,0 +1,68 @@
+# Șablon de profil. Copiază-l în data/profile.yaml și completează-l cu datele tale reale.
+# Tot ce apare în CV-urile generate vine DOAR din acest fișier.
+# Datele calendaristice au formatul AAAA-LL (ex. 2024-03) sau doar AAAA când luna nu se știe; end lipsă = job curent.
+
+contact:
+  full_name: Prenume Nume
+  email: prenume.nume@example.com
+  phone: "+40 700 000 000"
+  city: București
+  linkedin: https://www.linkedin.com/in/exemplu
+  github: https://github.com/exemplu
+
+headline: Junior Python Developer
+summary: >
+  Programator junior cu experiență în Python și dezvoltare web,
+  absolvent al cursurilor StepIT Academy.
+
+experience:
+  - role: Operator date
+    company: Firma Exemplu SRL
+    city: București
+    start: 2022-09
+    end: 2024-06
+    description: Introducere și verificare date în sistemul intern.
+    achievements:
+      - Am automatizat un raport săptămânal cu un script Python, economisind 3 ore pe săptămână.
+    technologies: [Python, Excel]
+
+education:
+  - institution: Universitatea Exemplu
+    degree: Licență
+    field: Informatică economică
+    start: 2018-10
+    end: 2021-07
+
+courses:
+  - name: Python Developer
+    provider: StepIT Academy
+    completed: 2025-06
+
+projects:
+  - name: Job Scraper
+    description: Aplicație care extrage anunțuri de pe site-uri de joburi și generează CV-uri adaptate.
+    technologies: [Python, Streamlit, SQLite]
+    url: https://github.com/exemplu/job-scraper
+
+skills:
+  - name: Python
+    level: intermediate
+    years: 1.5
+  - name: SQL
+    level: beginner
+  - name: Git
+    level: intermediate
+
+languages:
+  - name: Română
+    level: nativ
+  - name: Engleză
+    level: B2
+
+preferences:
+  roles: [Python Developer, Junior Developer]
+  cities: [București]
+  work_modes: [remote, hybrid]
+  levels: [junior, mid]
+  excluded_keywords: [call center, vânzări]
+  min_salary: 4000

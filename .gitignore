@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Secrets: API keys live only in .env (or are typed in the app for one session)
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Personal data, never committed:
+# data/ holds the jobs database, the profile (profile.yaml), the LinkedIn PDF and what was
+# read from it, the HTML cache and the generated CVs
+data/
+# ...and copies of them anywhere else in the project
+profile.yaml
+profile_linkedin.*
+*.db
+*.sqlite
+*.sqlite3
+output/
+*.docx
+*.pdf
+*.log
+
+# Editors / OS / local tooling
+.claude/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

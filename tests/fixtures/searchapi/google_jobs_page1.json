@@ -1,0 +1,74 @@
+{
+  "_comment": "Hand-written from the field list in https://www.searchapi.io/docs/google-jobs. Replace with a saved real response once a key is set.",
+  "search_metadata": {
+    "id": "search_test_1",
+    "status": "Success"
+  },
+  "search_parameters": {
+    "engine": "google_jobs",
+    "q": "python developer",
+    "hl": "ro",
+    "gl": "ro"
+  },
+  "jobs": [
+    {
+      "position": 1,
+      "title": "Python Developer",
+      "company_name": "Exemplu Software SRL",
+      "location": "Bucureşti, România",
+      "via": "prin LinkedIn",
+      "description": "Căutăm un Python Developer pentru echipa noastră din Bucureşti.\nLucrăm cu Django și PostgreSQL.",
+      "job_highlights": [
+        {
+          "title": "Calificări",
+          "items": ["Minimum 1 an experienţă cu Python", "Cunoștințe SQL", " "]
+        },
+        {
+          "title": "Beneficii",
+          "items": ["Asigurare medicală"]
+        }
+      ],
+      "extensions": ["Acum 2 zile", "Normă întreagă", "Asigurare medicală"],
+      "detected_extensions": {
+        "posted_at": "Acum 2 zile",
+        "schedule": "Normă întreagă",
+        "salary": "5.000–7.000 RON pe lună",
+        "health_insurance": true
+      },
+      "apply_link": "https://www.linkedin.com/jobs/view/python-developer-at-exemplu-1111111111?utm_source=google_jobs_apply",
+      "apply_links": [
+        { "link": "https://www.linkedin.com/jobs/view/python-developer-at-exemplu-1111111111?utm_source=google_jobs_apply", "source": "LinkedIn" },
+        { "link": "https://www.ejobs.ro/user/locuri-de-munca/python-developer/2222222", "source": "eJobs" }
+      ],
+      "sharing_link": "https://www.google.com/search?ibp=htl;jobs&q=python+developer#htidocid=AbCdEf123%3D%3D&hl=ro"
+    },
+    {
+      "position": 2,
+      "title": "Junior Backend Developer (Python)",
+      "company_name": "Remote First SA",
+      "location": "Oriunde",
+      "via": "BestJobs",
+      "description": "Poziție complet remote.",
+      "job_highlights": [
+        { "title": "Qualifications", "items": ["Python", "Git"] }
+      ],
+      "detected_extensions": {
+        "posted_at": "1 day ago",
+        "schedule": "Full-time"
+      },
+      "apply_links": [
+        { "link": "https://www.bestjobs.eu/loc-de-munca/junior-backend-developer-python", "source": "BestJobs" }
+      ],
+      "sharing_link": "https://www.google.com/search?ibp=htl;jobs&htidocid=XyZ789"
+    },
+    {
+      "position": 3,
+      "title": "",
+      "company_name": "Fără titlu SRL",
+      "sharing_link": "https://www.google.com/search?ibp=htl;jobs#htidocid=empty"
+    }
+  ],
+  "pagination": {
+    "next_page_token": "eyJmYyI6InBhZ2UyIn0="
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_comment": "Hand-written from https://www.searchapi.io/docs/linkedin-job-details-api. Replace with a saved real response once a key is set.",
+  "search_metadata": { "id": "search_test_li_details", "status": "Success" },
+  "search_parameters": { "engine": "linkedin_job_details", "job_id": "1111111111" },
+  "job": {
+    "job_id": "1111111111",
+    "link": "https://ro.linkedin.com/jobs/view/python-developer-at-exemplu-1111111111",
+    "title": "Python Developer",
+    "company_name": "Exemplu Software SRL",
+    "company_link": "https://ro.linkedin.com/company/exemplu",
+    "location": "Bucureşti, România",
+    "posted_at": "2 days ago",
+    "description": "Despre rol\nConstruim servicii în Python şi Django.\n\nCerinţe\n- 1+ ani Python\n- SQL",
+    "salary": "RON 6,000.00/month - RON 8,000.00/month",
+    "seniority_level": "Entry level",
+    "employment_type": "Full-time",
+    "industries": "Software Development",
+    "applicants": 37,
+    "is_easy_apply": true
+  }
+}

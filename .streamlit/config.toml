@@ -1,0 +1,43 @@
+# Design system: "Linear / Modern" (design.md), with its near-blacks lifted one step so the
+# app reads as dark but not oppressive. Colors and fonts live here; what the theme cannot
+# express (ambient light, glass cards, glows, motion) is in jobscraper/theme.py.
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "dark"
+primaryColor = "#5E6AD2"            # accent
+backgroundColor = "#0D0D12"         # background-base, lifted
+secondaryBackgroundColor = "#17171E" # inputs
+textColor = "#EDEDEF"               # foreground
+borderColor = "#2A2A33"             # ~ white/10 on the base
+linkColor = "#8D95E8"               # accent lifted for 4.5:1 on dark
+codeBackgroundColor = "#14141A"     # background-elevated
+redColor = "#E5484D"
+greenColor = "#46A758"
+yellowColor = "#F5D90A"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+baseFontSize = 15
+baseRadius = "8px"
+buttonRadius = "8px"
+showWidgetBorder = true
+showSidebarBorder = true
+headingFontSizes = ["2.75rem", "1.6rem", "1.2rem", "1.05rem", "0.95rem", "0.85rem"]
+headingFontWeights = [600, 600, 600, 600, 600, 600]
+metricValueFontSize = "1.85rem"
+metricValueFontWeight = 600
+linkUnderline = false
+dataframeHeaderBackgroundColor = "#17171E"
+dataframeHeaderTextColor = "#9BA0AA"
+dataframeBorderColor = "#23232B"
+
+[theme.sidebar]
+backgroundColor = "#121219"
+secondaryBackgroundColor = "#1A1A22"
+textColor = "#EDEDEF"
+borderColor = "#24242C"
+primaryColor = "#5E6AD2"
+linkColor = "#8D95E8"
+codeBackgroundColor = "#14141A"

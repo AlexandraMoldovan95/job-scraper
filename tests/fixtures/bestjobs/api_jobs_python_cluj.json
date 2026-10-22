@@ -1,0 +1,512 @@
+{
+ "items": [
+  {
+   "id": "52070975",
+   "workplaceJob": false,
+   "hasDescription": true,
+   "slug": "ai-prompt-specialist",
+   "title": "AI Prompt Specialist",
+   "rating": 4.49,
+   "locations": [
+    {
+     "name": "Cluj-Napoca, România",
+     "slug": "cluj-napoca-romania",
+     "geoLocation": {
+      "lat": 46.7712101,
+      "lng": 23.6236353
+     },
+     "withFullAddress": false
+    }
+   ],
+   "companyName": "PROHUMAN APT",
+   "companyLogo": "67b745329661a.png",
+   "salary": "",
+   "estimatedSalary": "1795 - 1985",
+   "applications": 153,
+   "appliedAt": "",
+   "applicationViewedAt": "",
+   "applicationDeletable": false,
+   "showApplicationInfo": false,
+   "liked": false,
+   "disliked": false,
+   "responsive": false,
+   "premium": false,
+   "highlighted": false,
+   "applicationType": 1,
+   "autoApply": false,
+   "acceptsMessage": false,
+   "active": true,
+   "ownApplyUrl": "",
+   "hasOwnApplyUrl": false,
+   "unansweredQuestions": [],
+   "unansweredJobInterviewQuestions": [],
+   "state": "active"
+  },
+  {
+   "id": "52073522",
+   "workplaceJob": false,
+   "hasDescription": true,
+   "slug": "senior-digital-cad-engineer",
+   "title": "Senior Digital CAD Engineer",
+   "rating": 0.0,
+   "locations": [
+    {
+     "name": "Cluj-Napoca, România",
+     "slug": "cluj-napoca-romania",
+     "geoLocation": {
+      "lat": 46.7712101,
+      "lng": 23.6236353
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Tirgu Mures, România",
+     "slug": "tirgu-mures-romania",
+     "geoLocation": {
+      "lat": 46.5385862,
+      "lng": 24.5514392
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Alba Iulia, România",
+     "slug": "alba-iulia-romania",
+     "geoLocation": {
+      "lat": 46.0823371,
+      "lng": 23.5690265
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Baia Mare, România",
+     "slug": "baia-mare-romania",
+     "geoLocation": {
+      "lat": 47.6567387,
+      "lng": 23.5849881
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Deva, România",
+     "slug": "deva-romania",
+     "geoLocation": {
+      "lat": 45.8662574,
+      "lng": 22.9143737
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Sibiu, România",
+     "slug": "sibiu-romania",
+     "geoLocation": {
+      "lat": 45.7983273,
+      "lng": 24.1255826
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Satu Mare, România",
+     "slug": "satu-mare-romania",
+     "geoLocation": {
+      "lat": 47.8016702,
+      "lng": 22.8575926
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Arad, România",
+     "slug": "arad-romania",
+     "geoLocation": {
+      "lat": 46.1865606,
+      "lng": 21.3122677
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Piatra Neamț, România",
+     "slug": "piatra-neamt-romania",
+     "geoLocation": {
+      "lat": 46.9299616,
+      "lng": 26.3779793
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Timișoara, România",
+     "slug": "timisoara-romania",
+     "geoLocation": {
+      "lat": 45.7488716,
+      "lng": 21.2086793
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Suceava, România",
+     "slug": "suceava-romania",
+     "geoLocation": {
+      "lat": 47.6634521,
+      "lng": 26.2732302
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Pitești, România",
+     "slug": "pitesti-romania",
+     "geoLocation": {
+      "lat": 44.8564798,
+      "lng": 24.8691824
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Bacău, România",
+     "slug": "bacau-romania",
+     "geoLocation": {
+      "lat": 46.5670437,
+      "lng": 26.9145748
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Botoșani, România",
+     "slug": "botosani-romania",
+     "geoLocation": {
+      "lat": 47.7406537,
+      "lng": 26.6658127
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Craiova, România",
+     "slug": "craiova-romania",
+     "geoLocation": {
+      "lat": 44.3301785,
+      "lng": 23.7948808
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Ploiești, România",
+     "slug": "ploiesti-romania",
+     "geoLocation": {
+      "lat": 44.936664,
+      "lng": 26.0128616
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Iași, România",
+     "slug": "iasi-romania",
+     "geoLocation": {
+      "lat": 47.1584549,
+      "lng": 27.6014418
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Vaslui, România",
+     "slug": "vaslui-romania",
+     "geoLocation": {
+      "lat": 46.6406915,
+      "lng": 27.7276468
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "București, România",
+     "slug": "bucuresti-romania",
+     "geoLocation": {
+      "lat": 44.4267674,
+      "lng": 26.1025384
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Galați, România",
+     "slug": "galati-romania",
+     "geoLocation": {
+      "lat": 45.4353208,
+      "lng": 28.0079945
+     },
+     "withFullAddress": false
+    },
+    {
+     "name": "Vídeňská 204, Brno-South-Přízřenice, Czechia",
+     "slug": "videnska-204-brno-south-prizrenice-czechia",
+     "geoLocation": {
+      "lat": 49.1481976,
+      "lng": 16.6041043
+     },
+     "withFullAddress": true
+    }
+   ],
+   "companyName": "ON SEMICONDUCTOR CZECH REPUBLIC",
+   "companyLogo": "6a5e19e65ac6b.png",
+   "salary": "",
+   "estimatedSalary": "2335 - 2580",
+   "applications": 63,
+   "appliedAt": "",
+   "applicationViewedAt": "",
+   "applicationDeletable": false,
+   "showApplicationInfo": false,
+   "liked": false,
+   "disliked": false,
+   "responsive": false,
+   "premium": false,
+   "highlighted": false,
+   "applicationType": 1,
+   "autoApply": false,
+   "acceptsMessage": false,
+   "active": true,
+   "ownApplyUrl": "https://track.teamio.com/f/a/cmTsSPkEwnQgYXO0b9fcGA~~/AAJwnRA~/CVH2Ykazr6TJUVE9jn6Pina3PRsMJNTiHM8zx47tGSE4laHaeJbfmqAzjYI9-WFISGecSqUezzv_jKE8sLVzNgSESUqgW7sgKKAX8QG7PoSEe8to5Wf9dHKAPvFCRmqH_JIeqMvwFV3Q0iXURlPGZM2lUk_Nx5JOcXMeyZIEndgltXf32XNkKX0DgWpOv1ZL",
+   "hasOwnApplyUrl": true,
+   "unansweredQuestions": [],
+   "unansweredJobInterviewQuestions": [],
+   "state": "active"
+  },
+  {
+   "id": "52069605",
+   "workplaceJob": false,
+   "hasDescription": true,
+   "slug": "wordpress-developer-84",
+   "title": "Wordpress developer",
+   "rating": 4.14,
+   "locations": [
+    {
+     "name": "Cluj-Napoca, România",
+     "slug": "cluj-napoca-romania",
+     "geoLocation": {
+      "lat": 46.7712101,
+      "lng": 23.6236353
+     },
+     "withFullAddress": false
+    }
+   ],
+   "companyName": "OKKWEBMEDIA",
+   "companyLogo": "583989958ee04.jpg",
+   "salary": "",
+   "estimatedSalary": "1795 - 1985",
+   "applications": 138,
+   "appliedAt": "",
+   "applicationViewedAt": "",
+   "applicationDeletable": false,
+   "showApplicationInfo": false,
+   "liked": false,
+   "disliked": false,
+   "responsive": false,
+   "premium": false,
+   "highlighted": false,
+   "applicationType": 1,
+   "autoApply": false,
+   "acceptsMessage": false,
+   "active": true,
+   "ownApplyUrl": "",
+   "hasOwnApplyUrl": false,
+   "unansweredQuestions": [],
+   "unansweredJobInterviewQuestions": [],
+   "state": "active"
+  },
+  {
+   "id": "52073369",
+   "workplaceJob": false,
+   "hasDescription": true,
+   "slug": "senior-android-engineer-remote-1",
+   "title": "Senior Android Engineer REMOTE",
+   "rating": 0.0,
+   "locations": [
+    {
+     "name": "Remote",
+     "slug": "remote",
+     "withFullAddress": false
+    }
+   ],
+   "companyName": "SMART FUTURE SYSTEMS",
+   "companyLogo": "",
+   "salary": "4500 - 6500",
+   "estimatedSalary": "",
+   "applications": 47,
+   "appliedAt": "",
+   "applicationViewedAt": "",
+   "applicationDeletable": false,
+   "showApplicationInfo": false,
+   "liked": false,
+   "disliked": false,
+   "responsive": false,
+   "premium": false,
+   "highlighted": false,
+   "applicationType": 1,
+   "autoApply": false,
+   "acceptsMessage": false,
+   "active": true,
+   "ownApplyUrl": "",
+   "hasOwnApplyUrl": false,
+   "unansweredQuestions": [],
+   "unansweredJobInterviewQuestions": [],
+   "state": "active"
+  },
+  {
+   "id": "52069292",
+   "workplaceJob": false,
+   "hasDescription": true,
+   "slug": "senior-software-engineer-351",
+   "title": "Senior Software Engineer",
+   "rating": 0.0,
+   "locations": [
+    {
+     "name": "Remote",
+     "slug": "remote",
+     "withFullAddress": false
+    }
+   ],
+   "companyName": "",
+   "companyLogo": "",
+   "salary": "5000",
+   "estimatedSalary": "",
+   "applications": 247,
+   "appliedAt": "",
+   "applicationViewedAt": "",
+   "applicationDeletable": false,
+   "showApplicationInfo": false,
+   "liked": false,
+   "disliked": false,
+   "responsive": false,
+   "premium": false,
+   "highlighted": false,
+   "applicationType": 1,
+   "autoApply": false,
+   "acceptsMessage": false,
+   "active": true,
+   "ownApplyUrl": "https://jobs.micro1.ai/post/9b3377c5-01da-40d7-9304-39cc8cd20932?referralCode=098d1da7-bf47-4b1a-aa3e-cd7f37db66d3&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "hasOwnApplyUrl": true,
+   "unansweredQuestions": [],
+   "unansweredJobInterviewQuestions": [],
+   "state": "active"
+  },
+  {
+   "id": "52069291",
+   "workplaceJob": false,
+   "hasDescription": true,
+   "slug": "backend-security-engineer-remote",
+   "title": "Backend Security Engineer Remote",
+   "rating": 0.0,
+   "locations": [
+    {
+     "name": "Remote",
+     "slug": "remote",
+     "withFullAddress": false
+    }
+   ],
+   "companyName": "",
+   "companyLogo": "",
+   "salary": "4000",
+   "estimatedSalary": "",
+   "applications": 285,
+   "appliedAt": "",
+   "applicationViewedAt": "",
+   "applicationDeletable": false,
+   "showApplicationInfo": false,
+   "liked": false,
+   "disliked": false,
+   "responsive": false,
+   "premium": false,
+   "highlighted": false,
+   "applicationType": 1,
+   "autoApply": false,
+   "acceptsMessage": false,
+   "active": true,
+   "ownApplyUrl": "https://jobs.micro1.ai/post/6818a81f-b736-4734-8700-aa3375ab5cc4?referralCode=098d1da7-bf47-4b1a-aa3e-cd7f37db66d3&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "hasOwnApplyUrl": true,
+   "unansweredQuestions": [],
+   "unansweredJobInterviewQuestions": [],
+   "state": "active"
+  },
+  {
+   "id": "52073368",
+   "workplaceJob": false,
+   "hasDescription": true,
+   "slug": "data-scientist-remote-1",
+   "title": "Data Scientist Remote",
+   "rating": 0.0,
+   "locations": [
+    {
+     "name": "Remote",
+     "slug": "remote",
+     "withFullAddress": false
+    }
+   ],
+   "companyName": "SMART FUTURE SYSTEMS",
+   "companyLogo": "",
+   "salary": "4500 - 6500",
+   "estimatedSalary": "",
+   "applications": 89,
+   "appliedAt": "",
+   "applicationViewedAt": "",
+   "applicationDeletable": false,
+   "showApplicationInfo": false,
+   "liked": false,
+   "disliked": false,
+   "responsive": false,
+   "premium": false,
+   "highlighted": false,
+   "applicationType": 1,
+   "autoApply": false,
+   "acceptsMessage": false,
+   "active": true,
+   "ownApplyUrl": "",
+   "hasOwnApplyUrl": false,
+   "unansweredQuestions": [],
+   "unansweredJobInterviewQuestions": [],
+   "state": "active"
+  },
+  {
+   "id": "52071767",
+   "workplaceJob": false,
+   "hasDescription": true,
+   "slug": "senior-applied-ml-engineer-computer-vision-r-d",
+   "title": "Senior Applied ML Engineer, Computer Vision R&D",
+   "rating": 0.0,
+   "locations": [
+    {
+     "name": "Remote",
+     "slug": "remote",
+     "withFullAddress": false
+    }
+   ],
+   "companyName": "Platesmart",
+   "companyLogo": "",
+   "salary": "",
+   "estimatedSalary": "1195 - 1325",
+   "applications": 96,
+   "appliedAt": "",
+   "applicationViewedAt": "",
+   "applicationDeletable": false,
+   "showApplicationInfo": false,
+   "liked": false,
+   "disliked": false,
+   "responsive": false,
+   "premium": false,
+   "highlighted": false,
+   "applicationType": 1,
+   "autoApply": false,
+   "acceptsMessage": false,
+   "active": true,
+   "ownApplyUrl": "",
+   "hasOwnApplyUrl": false,
+   "unansweredQuestions": [],
+   "unansweredJobInterviewQuestions": [],
+   "state": "active"
+  }
+ ],
+ "nextCursor": "eyJjIjoiZXlKMGVYQmxJam9pYzJWaGNtTm9YMkZtZEdWeUlpd2lkbUZzZFdWeklqcGJNVEF1T0RVME5UZzVMQzA1TWpJek16Y3lNRE0yT0RVME56YzFPREE0WFgwPSIsImQiOjI0fQ.jN7f5_alJIJRkdOeWulYbBiWO-lV_9KQLmkVBoYsEck",
+ "decomposedFilters": {
+  "keyword": "python",
+  "isAmbigousKeyword": false,
+  "locations": [
+   "Cluj-Napoca"
+  ],
+  "domains": [
+   9
+  ],
+  "originalKeyword": "python Cluj-Napoca"
+ }
+}
